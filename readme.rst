@@ -11,9 +11,16 @@ Versi Terbaru: https://lynk.id/ngodingseadanya/37g7m918x8d9
 🎯 Cocok Digunakan Untuk
 
 📚 Perpustakaan Sekolah
+
 🏫 Perpustakaan Kampus
+
 📖 Perpustakaan Instansi
+
 🏢 Perpustakaan Internal Perusahaan
+
 🎓 Tugas Perkuliahan Sistem Informasi
+
 🎓 Project UAS / UTS
+
 🎓 Bahkan Bisa Dijadikan Skripsi (Tinggal Menentukan Objek Penelitian)
+
