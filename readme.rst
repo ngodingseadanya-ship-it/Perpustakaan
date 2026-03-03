@@ -1,71 +1,113 @@
-###################
-What is CodeIgniter
-###################
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+# Sistem Informasi Perpustakaan Berbasis Website (CodeIgniter 3)
 
-*******************
-Release Information
-*******************
+---
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+## Tentang Aplikasi
 
-**************************
-Changelog and New Features
-**************************
+Source Code Siap Pakai – Berbasis Web
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+Kelola perpustakaan sekolah atau instansi dengan mudah, cepat, dan modern. Sistem dibangun menggunakan **CodeIgniter 3** dengan tampilan dashboard modern, ringan, dan user-friendly.
 
-*******************
-Server Requirements
-*******************
+> 🎨 Template: **Buatan Sendiri (Custom Design)**
+> ⚠️ Status: Masih dalam tahap pengembangan aktif dan akan terus mendapatkan update fitur serta peningkatan performa.
 
-PHP version 5.6 or newer is recommended.
+🌐 Demo Online: **??? (Soon)**
+Beli Link Versi terbaru : https://lynk.id/ngodingseadanya/37g7m918x8d9
+---
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+## ⚙️ Spesifikasi Teknis
 
-************
-Installation
-************
+💻 Bahasa: PHP 8.1
+⚡ Framework: CodeIgniter 3.1.13
+🎨 Template: Custom (Buatan Sendiri)
+🗄️ Database: MySQL
+📊 Datatable: Server-Side
+🔗 Teknologi: jQuery & Ajax
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+---
 
-*******
-License
-*******
+## ⭐ Fitur Utama
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+✅ Multi Role (Admin & Super Admin)
+✅ Dashboard Statistik Perpustakaan
+✅ Manajemen Anggota
+✅ Manajemen Buku & Kategori
+✅ Upload Cover Buku
+✅ Transaksi Peminjaman & Pengembalian
+✅ Status Buku (Dipinjam, Dikembalikan, Hilang, Rusak)
+✅ Sistem Denda (Bisa Aktif / Nonaktif)
+✅ Notifikasi Pengembalian + Reminder WhatsApp
+✅ Katalog Buku Interaktif
+✅ Laporan Peminjaman
+✅ Laporan Denda
+✅ Laporan Pengunjung (Harian, Mingguan, Bulanan, Tahunan)
+✅ Export PDF
+✅ Pengaturan Sistem Dinamis
 
-*********
-Resources
-*********
+---
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+## 🎯 Cocok Digunakan Untuk
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+📚 Perpustakaan Sekolah
+🏫 Perpustakaan Kampus
+📖 Perpustakaan Instansi
+🏢 Perpustakaan Internal Perusahaan
+🎓 Tugas Perkuliahan Sistem Informasi
+🎓 Project UAS / UTS
+🎓 Bahkan Bisa Dijadikan Skripsi (Tinggal Menentukan Objek Penelitian)
 
-***************
-Acknowledgement
-***************
+---
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+## Alur Program
+
+### 1. Admin / Super Admin
+
+* Dashboard Statistik
+* Kelola Anggota
+* Kelola Buku
+* Kelola Kategori
+* Transaksi Peminjaman
+* Notifikasi Pengembalian
+* Laporan Sistem
+* Pengaturan Sistem (Hak Akses Berbeda)
+
+### 2. Anggota
+
+* Melihat Data Peminjaman
+* Cari Buku di Katalog
+* Edit Profil
+
+---
+
+## Cara Install
+
+1. Install XAMPP (PHP 8.1 disarankan)
+2. Extract file project
+3. Copy folder ke **htdocs**
+4. Jalankan Apache & MySQL
+5. Import database SQL
+6. Akses di browser → `localhost/nama_folder`
+
+---
+
+## Changelog
+
+📅 **9 Februari 2026** — Penambahan fitur keamanan validasi stok real-time untuk mencegah double peminjaman
+
+📅 **4 Februari 2026** — Optimasi tampilan dashboard & peningkatan performa query laporan agar lebih cepat
+
+📅 **2 Februari 2026** — Jika status siswa sudah alumni, otomatis tidak bisa melakukan peminjaman buku
+
+📅 **29 Januari 2026** — Pengaturan lama peminjaman buku & maksimal jumlah buku yang dapat dipinjam
+
+📅 **28 Januari 2026** — Pengaturan notifikasi pengembalian (dapat diubah sewaktu-waktu melalui pengaturan sistem)
+
+📅 **26 Januari 2026** — Penambahan pengaturan aktif / nonaktif fitur denda
+
+📅 **23 Januari 2026** — Penambahan Multi Role (Admin & Super Admin) dengan hak akses berbeda
+
+📅 **15 Januari 2026** — Penambahan fitur data kunjungan untuk tracking pengunjung (harian, mingguan, bulanan, tahunan)
+
+📅 **12 Januari 2026** — Penambahan fitur notifikasi pengembalian dan reminder langsung melalui WhatsApp
+
