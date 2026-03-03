@@ -27,3 +27,26 @@ Versi Terbaru: https://lynk.id/ngodingseadanya/37g7m918x8d9
 🎓 Bahkan Bisa Dijadikan Skripsi (Tinggal Menentukan Objek Penelitian)
 
 
+Preview Sistem
+==============
+
+Dashboard
+---------
+
+.. image:: assets/img/dashboard.png
+   :width: 900px
+   :align: center
+
+Laporan Peminjaman
+------------------
+
+.. image:: assets/img/laporan-peminjaman.png
+   :width: 900px
+   :align: center
+
+Pengaturan Sistem
+-----------------
+
+.. image:: assets/img/pengaturan-sistem.png
+   :width: 900px
+   :align: center
